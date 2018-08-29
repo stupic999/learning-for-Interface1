@@ -8,5 +8,7 @@ namespace interface1
 {
     interface Ipass
     {
+        int Score { get; set; }
+        string PassOrNot(int grade);
     }
 }
