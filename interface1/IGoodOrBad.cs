@@ -8,5 +8,8 @@ namespace interface1
 {
     interface IGoodOrBad
     {
+        int High { get; set; }
+        int Low { get; set; }
+        string GoodOrBad(int grade);
     }
 }
